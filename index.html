@@ -101,7 +101,8 @@ section{padding-block:96px}
 .case{background:var(--surface);border:1px solid var(--line);border-radius:22px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
 .case .visual{aspect-ratio:16/10;max-width:100%;position:relative;display:grid;grid-template-columns:repeat(3,1fr);gap:8px;padding:22px}
 .case .visual div{border-radius:10px;display:grid;place-items:end start;padding:10px;color:#fff;font:700 .78rem var(--f-display);box-shadow:0 10px 24px -14px rgba(0,0,0,.5)}
-.case .visual div:nth-child(2){transform:translateY(-10px)}
+.case .visual div:nth-child(2),.case .visual img:nth-child(2){transform:translateY(-10px)}
+.case .visual img{width:100%;height:100%;object-fit:cover;border-radius:10px;box-shadow:0 10px 24px -14px rgba(0,0,0,.5);min-width:0}
 .tag{position:absolute;top:14px;right:14px;background:rgba(255,255,255,.92);color:#111216;font:500 .66rem var(--f-label);letter-spacing:.18em;text-transform:uppercase;padding:5px 10px;border-radius:999px}
 .case .body{padding:24px 26px 28px;display:flex;flex-direction:column;gap:12px}
 .case .meta{display:flex;gap:10px;flex-wrap:wrap}
@@ -257,12 +258,12 @@ footer.site img{height:46px;filter:var(--logo-filter)}
       </div>
       <div class="work">
         <article class="case">
-          <div class="visual" style="background:#F3E6D6"><span class="tag">Projet exemple</span><div class="p2">Menu<br>d'été</div><div class="p5">Reel<br>barista</div><div class="p3">Happy<br>hour</div></div>
+          <div class="visual" style="background:#F3E3D0"><img src="images/cafedelmar-1.jpg" alt="Palmiers et parasols du Café del Mar Marrakech"><img src="images/cafedelmar-2.jpg" alt="Cocktails signature Café del Mar"><img src="images/cafedelmar-3.jpg" alt="Assiette servie au bord de la piscine"></div>
           <div class="body">
-            <div class="meta"><span class="label">Café · Casablanca</span></div>
-            <h3>Café Zellige</h3>
-            <p style="color:var(--muted)">Refonte du feed, reels hebdomadaires et campagne locale pour remplir les après-midis en semaine.</p>
-            <div class="kpis"><div><b>+212%</b><span>portée mensuelle</span></div><div><b>+4,1k</b><span>abonnés</span></div><div><b>3,2x</b><span>retour pub</span></div></div>
+            <div class="meta"><span class="label">Day club · Marrakech</span></div>
+            <h3>Café del Mar Marrakech</h3>
+            <p style="color:var(--muted)">Création de contenu et gestion Instagram pour un day club privé : visuels food et cocktails, ambiance piscine et mise en avant des événements.</p>
+            <div class="kpis"><div><b>29,3k</b><span>abonnés Instagram</span></div><div><b>Food</b><span>&amp; cocktails</span></div><div><a href="https://www.instagram.com/cafedelmarkech/" target="_blank" rel="noopener" style="font-weight:600;color:var(--accent)">Voir le compte →</a></div></div>
           </div>
         </article>
         <article class="case">
@@ -318,7 +319,7 @@ footer.site img{height:46px;filter:var(--logo-filter)}
         <p>Textes d'exemple à remplacer par les avis de vos vrais clients.</p>
       </div>
       <div class="quotes">
-        <blockquote><p>« Notre page est enfin cohérente et les clients nous trouvent sur Instagram. Les après-midis sont beaucoup plus remplis. »</p><footer><i class="p2">CZ</i><div>Gérant (exemple)<span>Café Zellige</span></div></footer></blockquote>
+        <blockquote><p>« Notre page est enfin cohérente et les clients nous trouvent sur Instagram. Les après-midis sont beaucoup plus remplis. »</p><footer><i class="p2">CL</i><div>Client (exemple)<span>Restaurant</span></div></footer></blockquote>
         <blockquote><p>« Des visuels propres, toujours à l'heure, et un rapport clair chaque mois. On sait exactement ce que rapporte la pub. »</p><footer><i class="p1">OL</i><div>Fondatrice (exemple)<span>Optique Lumière</span></div></footer></blockquote>
         <blockquote><p>« Les reels ont changé notre visibilité. Les inscriptions de la rentrée ont dépassé nos objectifs. »</p><footer><i class="p4">AF</i><div>Directeur (exemple)<span>Atlas Fit</span></div></footer></blockquote>
       </div>
